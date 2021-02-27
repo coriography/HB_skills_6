@@ -28,9 +28,9 @@ def duplicate_letters_2(string1, string2):
     """
 
     duplicates = set()
-    string2 = set(string2)
-    for letter in string1:
-        if letter in string2:
+    string2 = set(string2) # O(n)
+    for letter in string1: # O(n)
+        if letter in string2: # O(1)
             duplicates.add(letter)
 
     return list(duplicates)

@@ -3,14 +3,14 @@ Runtime
 
 1. Runtime for does_string_contain_letter:
 
-
+I think this runtime would be "linear" or O(n), because the function would have to look at each letter in the string to determine whether the letter matched one of them. Therefore, the runtime would be dependent on the length of the string (n).
 
 2. Runtime for duplicate_letters:
-
+ This would be "quadratic time" or O(n^2) because it is two nested loops - the function has to search the length of one string, times the length of the other string. (There is actually a third nested search, whether letter is in duplicates, which I think would make it more like O(n^3), but if I'm pattern matching from what I've learned, that would "reduce" to O(n^2).)
 
 
 3. Runtime for duplicate_letters2:
-
+This one looks like O(n). creating the set out of string2 would be O(n) based on length, then the for loop through string1 would be O(n) based on length, but set lookup (if letter in string2) is O(1). the two O(n) lines in succession combine to O(2n), which reduces to O(n).
 
 
 Stacks and Queues
