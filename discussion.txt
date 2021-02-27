@@ -39,12 +39,38 @@ Trees
    Search (BFS) algorithm visit each node  until finding burritos (starting at
    food)?
 
+   food
+   italian
+   indian
+   mexican
+   lasagna
+   pizza
+   tikka
+   saag
+   burritos
+
 
 2. Using the diagram in the instructions, In what order would a Depth First 
    Search (DFS) algorithm visit each node until finding Chicago-style (starting
    at food)? 
 
+   food
+   mexican
+   enchiladas
+   tacos
+   burritos
+   indian
+   saag
+   tikka
+   Italian
+   pizza
+   sicilian
+   ny
+   chicago
+
+
 3. How is a binary search tree different from other trees?
 
+each node can only have two children maximum - "left" and "right." this is used for faster searches - reducing the number of option by half with each move.
 
 
