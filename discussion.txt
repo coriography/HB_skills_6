@@ -21,7 +21,7 @@ Stacks and Queues
    a built-in Python list? Explain why, referencing the runtime requirements for
    Stack operations (push, pop, etc).
 
-
+A Linked List would be preferred, because of the simpler structure. Stacks don't require indexes or iteration, because of the limited operations we can perform on them. Push, pop, peek, and is_empty are only referencing the end or beginning of a Stack, and therefore have a constant runtime O(1). A Linked List has "head" and "tail" attributes to refer to the beginning and end, so we can go straight there, which is similar to a dictionary lookup or list indexing.
 
 
 
@@ -30,7 +30,7 @@ Stacks and Queues
    a built-in Python list? Explain why, referencing the runtime requirements for
    Queue methods (enqueue, dequeue, etc).
 
-
+Almost the same answer as above - a Linked List would be better because of the limited operations needed for a Queue. Referencing the beginning and ends of the Queue using enqueue, dequeue, peek, and is_empty methods could use the Linked List head and tail attributes, which are similar to a dict lookup and only have a runtime of O(1).
 
 Trees
 -----
