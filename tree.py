@@ -49,7 +49,10 @@ class Tree(object):
 
         # TODO: Complete this function
 
-        pass
+       # take in a piece of data that the method is searching for
+       # return a list of all of the nodes in the tree that contain that piece of data
+       # The list returned should be in hierarchical order, meaning the list should be ordered from the highest ranking node to lowest ranking node. 
+       # You can assume that there will be at most one node with the given data on any particular level of the tree.
 
 
 if __name__ == "__main__":

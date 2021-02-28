@@ -49,7 +49,15 @@ def only_vowels(llist):
         True
     """
 
-    pass
+    # create a new linked list
+    # walk through nodes of original linked list
+    # If a node in the original linked list contains a string that starts with a vowel, add a node that contains that string to the new linked list
+    # Return the new linked list once you’ve walked all the way through the original linked list that was passed in
+
+    new_llist = LinkedList(llist)
+    # if node.data starts with vowel:
+    new_llist.add_node(the_string)
+    return new_llist
 
 
 if __name__ == "__main__":
